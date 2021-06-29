@@ -73,7 +73,8 @@ text-transform: uppercase;
     border-radius: 10px;
     background-image: url(../images/CLEAN\ VBACK.webp);
     width: 40%;
-    margin: 4% auto 5%;
+    margin: 2% auto 3%;
+    /* padding: 5%; */
     font-weight: 600;
     padding: 4%;
     border: 1px solid #FF0D0D;
@@ -85,6 +86,7 @@ text-transform: uppercase;
     text-align: center;
     margin:1% auto 6%;
     font-weight: 600;
+    color: black;
 }
 
 .register .btn-class
@@ -100,6 +102,8 @@ text-transform: uppercase;
     width:12em;
     padding: 5px;
     text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
 }
 .register .row2
 {
@@ -161,26 +165,6 @@ text-transform: uppercase;
         padding: 0.5em 1em;
         border: none;
     }
-    /* ==============Exhibitions=================== */
-    .exhibitions .exhibitions-body .about-fair .button
-    {
-    text-align: center;
-    margin:auto;
-    width:70%;
-  
-    }
-
-    .exhibitions .exhibitions-body .about-fair .button a
-    {
-        padding:8px;
-        width:80%;
-        border-radius: 9px;
-        color: #fff;
-        font-weight: 800;
-        font-size: 1.2em;
-    background-color: #2F0A0A;
-    }
-   
     /* ==================Register======================= */
     .register
     {
