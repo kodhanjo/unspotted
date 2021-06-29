@@ -26,4 +26,9 @@ body {
   .start{
       display: flex;
       justify-content: space-evenly;
+      padding-top: 150px;
   }  
+  .first{
+      display: flex;
+      justify-content: space-evenly;
+  }
