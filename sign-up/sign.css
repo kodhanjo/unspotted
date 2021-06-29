@@ -6,15 +6,27 @@ body{
 {
     font-size:1.3em;
     font-weight: 1000;
-    color: #5C1B1B;
+    color: #e20505;
+    text-transform: uppercase;
+}
+#header strong{
+    font-size: 1.3em;
+    font-weight: 1000;
 }
 #header .navbar
 {
-font-size: 1.3em;
+font-size: 1em;
+font-weight: 1000;
+text-transform: uppercase;
+/* text-shadow: #fff; */
 }
 #header .navbar ul li
 {
     margin: 0.7em;
+    background-color: #e20505;
+    border-radius: 10px;
+    /* color: #fff; */
+    align-items: center;
 }
 
 #header .row .col1
@@ -45,98 +57,28 @@ font-size: 1.3em;
 }
 #header .row .col2 button
 {
-    background-color: #5C1B1B;
+    background-color: #353434;
     color: #fff;
     font-size: 1.3em;
     border-radius: 1.2em;
     padding: 0.5em 1em;
     border: none;
 }
-/* Exhibitions */
-.exhibitions h1
-{
-    font-size:1.7em;
-   margin-top: 2%;
-   margin-bottom: 2%;
-   font-weight: 1000;
-   color: #5C1B1B;
-}
-.exhibitions .exhibitions-body
-{
-    background-color: #DEDEDE;
-    border-radius: 10px;
-    padding-top: 5% ;
-    padding-bottom: 4%;
-    padding-left: 4%;
-    padding-right: 4%;
-    margin-bottom: 5%;
-}
-.exhibitions .exhibitions-body h1
-{
-    font-size: 1.7em;
-    color: #000;
-    font-weight: 1000;
-}
-.exhibitions .exhibitions-body .row-1 p
-{
-    font-weight: 400;
-    font-size: 1.2em;
-}
-.exhibitions .exhibitions-body .row-1 h5
-{
-    font-weight: 600;
-}
-.exhibitions .exhibitions-body .col-image
-{
-    max-height: 20em;
-}
-.exhibitions .exhibitions-body .col-2
-{
-    padding-left: 6%;
-}
-.exhibitions .exhibitions-body .col-image img
-{
-    width: 100%;
-    height: 100%;
-}
-
-.exhibitions .exhibitions-body .about-fair
-{
-    padding:3%;
-}
-.exhibitions .exhibitions-body .about-fair h4
-{
-    font-weight: 800;
-}
-.exhibitions .exhibitions-body .about-fair .button
-{
-   text-align: center;
-   margin:auto;
-   width:30%;
-}
-.exhibitions .exhibitions-body .about-fair .button a
-{
-    padding:8px;
-    width:80%;
-    border-radius: 9px;
-    color: #fff;
-    font-weight: 800;
-    font-size: 1.2em;
-  background-color: #2F0A0A;
-}
-
-/* Register */
+/* sign up/register*/
 .register
 {
     
     font-weight: 400;
     font-size: 16px;
     border-radius: 10px;
-    background-color: #c4c4c4;
+    background-image: url(../images/CLEAN\ VBACK.webp);
     width: 40%;
     margin: 4% auto 5%;
     font-weight: 600;
     padding: 4%;
+    border: 1px solid #FF0D0D;
+    border-radius: 15px;
+    /* background-color: rgba(255, 255, 255, 0.171); */
 }
 .register h3
 {
@@ -152,7 +94,7 @@ font-size: 1.3em;
 .register button
 {
     margin: 5px auto 4px;
-    background-color: #601D1D;
+    background-color: #e20505;
     font-weight: 600;
     color: white;
     width:12em;
@@ -175,45 +117,11 @@ font-size: 1.3em;
 .register a
 {
     text-decoration: none;
-    color: black;
+    color: rgb(253, 251, 251);
 }
 .register a:hover
 {
-    color:#601D1D;
-}
-
-/* ============footer===================== */
-#footer
-{
-padding: 2%  4% 9% 9% ;
-background-color: #3F3D3D;
-color: white;
-}
-#footer .col1, .col2
-{
- margin-top: 4%;
-}
-#footer h3
-{
-   font-size: 1.5em;
-}
-#footer .li
-{
-    font-size: 1.1em;
-    margin-top: 1.5em;
-}
-#footer .li a
-{
-    text-decoration: none;
-    color: white;
-}
-#footer .li a:hover
-{
-    color: rgb(187, 125, 125);
-}
-#footer .li .fa
-{
-    margin-right: 1em;
+    color:#e20505;
 }
 
 /* MEDIA QUERY */
