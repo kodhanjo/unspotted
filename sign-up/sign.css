@@ -73,6 +73,7 @@ text-transform: uppercase;
     border-radius: 10px;
     background-image: url(../images/CLEAN\ VBACK.webp);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 40%;
     margin: 2% auto 3%;
     /* padding: 5%; */
