@@ -9,6 +9,10 @@ body{
     color: #e20505;
     text-transform: uppercase;
 }
+.nav-item .active{
+    color: white;
+    background-color: grey;
+}
 #header strong{
     font-size: 1.3em;
     font-weight: 1000;
@@ -19,6 +23,9 @@ font-size: 1em;
 font-weight: 1000;
 text-transform: uppercase;
 /* text-shadow: #fff; */
+}
+#header .navbar:hover{
+    color: white;
 }
 #header .navbar ul li
 {
@@ -65,14 +72,16 @@ text-transform: uppercase;
     border: none;
 }
 /* sign up/register*/
+.reg h3{
+    text-align: center;
+}
 .register
 {
-    
     font-weight: 400;
     font-size: 16px;
     border-radius: 10px;
-    background-image: url(../images/CLEAN\ VBACK.webp);
-    background-repeat: no-repeat;
+    background-image: url(../images/background.png);
+    /* background-repeat: no-repeat; */
     background-size: cover;
     width: 40%;
     margin: 2% auto 3%;
@@ -123,13 +132,18 @@ text-transform: uppercase;
 .register a
 {
     text-decoration: none;
-    color: rgb(253, 251, 251);
+    color: rgb(15, 2, 2);
 }
 .register a:hover
 {
     color:#e20505;
 }
-
+.col-sm-6{
+    color: rgb(15, 0, 0);
+}
+.col-form-label{
+    color: rbg(15, 0, 0);
+}
 /* MEDIA QUERY */
 @media only screen and (max-width: 600px) 
 {
