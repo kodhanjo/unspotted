@@ -144,7 +144,16 @@ text-transform: uppercase;
 .col-form-label{
     color: rbg(15, 0, 0);
 }
-/* Contact us */
+/* footer */
+#footer {
+    text-align: center;
+    padding-right: 100px;
+  }
+  .rights{
+    text-align: center;
+    padding-right: 100px;
+    font-weight: 600;
+  }
 /* MEDIA QUERY */
 @media only screen and (max-width: 600px) 
 {
