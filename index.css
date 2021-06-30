@@ -1,5 +1,74 @@
 body{
-    /* font-family: roboto; */
+    font-family: 'Roboto', sans-serif;
+}
+/*=============header section==================== */
+#header span
+{
+    font-size:1.3em;
+    font-weight: 1000;
+    color: #E20505;
+    text-transform: uppercase;
+}
+.nav-item .active{
+    color: white;
+    background-color: grey;
+}
+#header strong{
+    font-size: 1.3em;
+    font-weight: 1000;
+}
+#header .navbar
+{
+font-size: 1em;
+font-weight: 1000;
+text-transform: uppercase;
+/* text-shadow: #fff; */
+}
+#header .navbar:hover{
+    color: white;
+}
+#header .navbar ul li
+{
+    margin: 0.7em;
+    background-color: #E20505;
+    border-radius: 10px;
+    /* color: #fff; */
+    align-items: center;
+}
+#header .row .col1
+{
+    max-width: 100%;
+    overflow: hidden;
+}
+#header .row .col1 img
+{
+ max-width: 100%;
+}
+#header .row .col2
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#header .row .col2 h1
+{
+    font-size: 3em;
+    font-weight: 1000;
+}
+#header .row .col2 p
+{
+    font-size: 20px;
+}
+#header .row .col2 button
+{
+    background-color: #353434;
+    color: #fff;
+    font-size: 1.3em;
+    border-radius: 1.2em;
+    padding: 0.5em 1em;
+    border: none;
 }
 .spot{
     background-image: url(./images/CLEAN\ VBACK.webp);
