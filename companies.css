@@ -123,3 +123,40 @@ text-transform: uppercase;
 #camp{
     font-weight: 600;
 }
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px)
+{
+    /*=============header section==================== */
+    #navbar .row
+    {
+        height: 80vh;
+    }
+    #header .row .col1
+    {
+        max-width: 100%;
+        overflow: hidden;
+    }
+   #header .row .col2
+    {
+        padding: 20%;
+    }
+    #header .row .col2 h1
+    {
+        font-size: 1.7em;
+    }
+    #header .row .col2 p
+    {
+        font-size: 13px;
+    }
+    #header .row .col2 button
+    {
+        background-color: #5C1B1B;
+        color: #fff;
+        font-size: 1em;
+        border-radius: 1.2em;
+        padding: 0.5em 1em;
+        border: none;
+    }
+    .form-group{
+        size: 100;
+    }
