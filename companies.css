@@ -40,6 +40,7 @@ body {
   .rights{
     text-align: center;
     padding-right: 100px;
+    font-weight: 600;
   }
   .button{
       margin-left: 50px;
