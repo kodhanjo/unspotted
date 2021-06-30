@@ -3,7 +3,14 @@
     height: 100vh;
     background-size:cover;
     background-repeat: no-repeat;
+    border-radius: 30px;
+    border-color: #e20505; 
 }
 .home{
-    background-color:hsl(0, 100%, 82%) ;
+    background-color:rgb(255, 184, 184) ;
+    border-radius: 50px;
+    text-align: center;
+    padding: 5%;
+    
+
 }
