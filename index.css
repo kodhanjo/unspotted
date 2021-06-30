@@ -1,16 +1,23 @@
+body{
+    /* font-family: roboto; */
+}
 .spot{
     background-image: url(./images/CLEAN\ VBACK.webp);
     height: 100vh;
     background-size:cover;
     background-repeat: no-repeat;
     border-radius: 30px;
-    border-color: #e20505; 
+    border-color: #e20505;
 }
-.home{
+p{
+    font-size: 1.7em;
     background-color:rgb(255, 184, 184) ;
+      
     border-radius: 50px;
     text-align: center;
-    padding: 5%;
-    
-
+    /* padding: 3%; */
+    height: 150px;
+    width: 600px;
+    display: flex;
+    font-weight: 500;
 }
