@@ -27,6 +27,7 @@ body {
       display: flex;
       justify-content: space-evenly;
       padding-top: 150px;
+      size: 50;
   }  
   .first{
       display: flex;
@@ -42,4 +43,7 @@ body {
   }
   .button{
       margin-left: 50px;
+  }
+  img{
+      border-radius: 15px;
   }
