@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="home.html">About <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="">About <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="des">Companies <span class="sr-only">(current)</span></a>
@@ -60,7 +60,7 @@
               </div>
             </div>
             <div class="form-group row">
-                <label class="col-sm-5 col-form-label">Username</label>
+                <label class="col-sm-5 col-form-label " id="username" >Username</label>
                 <div class="col-sm-7">
                   <input type="text"  class="form-control">
                 </div>
@@ -72,13 +72,13 @@
                 </div>
             </div>
             <div class="form-group row">
-                <label class="col-sm-5 col-form-label">Password</label>
+                <label class="col-sm-5 col-form-label" id="password" >Password</label>
                 <div class="col-sm-7">
                   <input type="password"  class="form-control">
                 </div>
             </div>
             <div class="form-group row">
-                <label class="col-sm-5 col-form-label">Confirm Password</label>
+                <label class="col-sm-5 col-form-label" id="password">Confirm Password</label>
                 <div class="col-sm-7">
                   <input type="password"  class="form-control">
                 </div>
@@ -122,25 +122,25 @@
           </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-5 col-form-label">Username</label>
+            <label  class="col-sm-5 col-form-label" id="username">Username</label>
             <div class="col-sm-7">
               <input type="text"  class="form-control">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-5 col-form-label">Phone Number</label>
+            <label class="col-sm-5 col-form-label" id="number">Phone Number</label>
             <div class="col-sm-7">
               <input type="text"  class="form-control">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-5 col-form-label">Password</label>
+            <label class="col-sm-5 col-form-label" id="txtPassword" >Password</label>
             <div class="col-sm-7">
               <input type="password"  class="form-control">
             </div>
         </div>
         <div class="form-group row">
-            <label class="col-sm-5 col-form-label">Confirm Password</label>
+            <label class="col-sm-5 col-form-label" id="txtConfirmPassword">Confirm Password</label>
             <div class="col-sm-7">
               <input type="password"  class="form-control">
             </div>
@@ -155,7 +155,7 @@
                 </div>
               </div>
         </div>
-        <div class="btn-class"><button class="btn">Register</button></div>
+        <div class="btn-class"><button class="btn" id="btnSubmit">Register</button></div>
       </form>
 
       <div class="row row2">
@@ -176,8 +176,23 @@
 <div class="rights">
     <p>COPYRIGHT &copy; 2021 UNSPORTTED. ALL RIGHTS RESERVED.</p>
 </div>
+<script type="text/javascript">
+    $(function () {
+        $("#btnSubmit").click(function () {
+            var password = $("#txtPassword").val();
+            var confirmPassword = $("#txtConfirmPassword").val();
+            if (password != confirmPassword) {
+                alert("Passwords do not match.");
+                return false;
+            }
+            return true;
+        });
+    });
+</script>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-  </body>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  
+</body>
 </html>
