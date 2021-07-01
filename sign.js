@@ -17,4 +17,5 @@ function signUp(){
     {
       alert("Enter valid username!");
     }
-    else("Success! We have sent you a verification throgh your email. ")
+    else("Success! We have sent you a verification throgh your email.");
+  }
