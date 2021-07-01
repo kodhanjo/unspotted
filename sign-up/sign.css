@@ -1,0 +1,243 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*=============header section==================== */
+#header span
+{
+    font-size:1.3em;
+    font-weight: 1000;
+    color: #e20505;
+    text-transform: uppercase;
+}
+.nav-item .active{
+    color: white;
+    background-color: grey;
+}
+#header strong{
+    font-size: 1.3em;
+    font-weight: 1000;
+}
+#header .navbar
+{
+font-size: 1em;
+font-weight: 1000;
+text-transform: uppercase;
+/* text-shadow: #fff; */
+}
+#header .navbar:hover{
+    color: white;
+}
+#header .navbar ul li
+{
+    margin: 0.7em;
+    background-color: #e20505;
+    border-radius: 10px;
+    /* color: #fff; */
+    align-items: center;
+}
+
+#header .row .col1
+{
+    max-width: 100%;
+    overflow: hidden;
+}
+#header .row .col1 img
+{
+ max-width: 100%;
+}
+#header .row .col2
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#header .row .col2 h1
+{
+    font-size: 3em;
+    font-weight: 1000;
+} 
+#header .row .col2 p
+{
+    font-size: 20px;
+}
+#header .row .col2 button
+{
+    background-color: #353434;
+    color: #fff;
+    font-size: 1.3em;
+    border-radius: 1.2em;
+    padding: 0.5em 1em;
+    border: none;
+}
+/* sign up/register*/
+.reg h3{
+    text-align: center;
+}
+.register
+{
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 10px;
+    background-image: url(../images/background.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    width: 40%;
+    margin: 2% auto 3%;
+    /* padding: 5%; */
+    font-weight: 600;
+    padding: 4%;
+    border: 1px solid #FF0D0D;
+    border-radius: 15px;
+    /* background-color: rgba(255, 255, 255, 0.171); */
+}
+.register h3
+{
+    text-align: center;
+    margin:1% auto 6%;
+    font-weight: 600;
+    color: black;
+}
+
+.register .btn-class
+{
+    text-align: center;
+}
+.register button
+{
+    margin: 5px auto 4px;
+    background-color: #e20505;
+    font-weight: 600;
+    color: white;
+    width:12em;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+.register .row2
+{
+    margin: 10px auto 10px;
+    width: 90%;
+}
+.register .row2 div
+{
+    text-align: center;
+}
+.register button:hover
+{
+    color:wheat;
+}
+.register a
+{
+    text-decoration: none;
+    color: rgb(15, 2, 2);
+}
+.register a:hover
+{
+    color:#e20505;
+}
+.col-sm-6{
+    color: rgb(15, 0, 0);
+}
+.col-form-label{
+    color: rbg(15, 0, 0);
+}
+/* footer */
+#footer {
+    text-align: center;
+    padding-right: 100px;
+  }
+  .rights{
+    text-align: center;
+    padding-right: 100px;
+    font-weight: 600;
+  }
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) 
+{
+
+    /*=============header section==================== */
+   
+    #navbar .row
+    {
+        height: 80vh;
+    }
+    #header .row .col1
+    {
+        max-width: 100%;
+        overflow: hidden;
+    }
+   #header .row .col2
+    {
+        padding: 20%;
+    }
+   
+    #header .row .col2 h1
+    {
+        font-size: 1.7em;
+    } 
+    #header .row .col2 p
+    {
+        font-size: 13px;
+    }
+    #header .row .col2 button
+    {
+        background-color: #5C1B1B;
+        color: #fff;
+        font-size: 1em;
+        border-radius: 1.2em;
+        padding: 0.5em 1em;
+        border: none;
+    }
+    /* ==================Register======================= */
+    .register
+    {
+        width: 70%;
+        margin: 3% auto 5%;
+        font-size: 13px;
+    }
+    .register h3
+    {
+        margin:5% auto 6%;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .register button
+    {
+        font-size: 13px;
+    }
+    .register .row2
+    {
+        margin: 10px auto 10px;
+        width: 90%;
+    }
+    .register .row2 div
+    {
+        text-align: center;
+    }
+   
+    /* ============footer===================== */
+   
+    #footer .col1, .col2
+    {
+    margin-top: 10%;
+    }
+    #footer h3
+    {
+    font-size: 1.3em;
+    }
+    #footer .li
+    {
+        font-size: 1em;
+        margin-top: 1.2em;
+    }
+    #footer .li .fa
+    {
+        margin-right: 1em;
+    }
+
+
+}
