@@ -80,8 +80,9 @@ text-transform: uppercase;
     font-weight: 400;
     font-size: 16px;
     border-radius: 10px;
-    background-image: url(../images/background.png);
+    /* background-image: url(../sign-up/image/CLEAN\ CLEAN.jpg); */
     background-repeat: no-repeat;
+    /* background-color: #ff0000; */
     background-size: cover;
     width: 40%;
     margin: 2% auto 3%;
